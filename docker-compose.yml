@@ -6,7 +6,7 @@ services:
     container_name: node_course_postgres_container
     environment:
       POSTGRES_USER: nodejs_course_admin
-      POSTGRES_PASSWORD: my_password
+      POSTGRES_PASSWORD: my_password1
       POSTGRES_DB: nodejs_course_database
     ports:
       - "5432:5432"
